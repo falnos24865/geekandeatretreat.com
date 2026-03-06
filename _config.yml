@@ -1,5 +1,10 @@
+include: ["_pages"]
+
 title: Geek And Eat Retreat
+subtitle: Think. Eat. Repeat.
+name: Joe Robertson
 email: contact@geekandeat.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Geek & Eat Retreat! A gaming retreat where enthusiasts of board games,
   roleplaying adventures, and video games converge for an unforgettable experience.
@@ -21,6 +26,37 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
+##### Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      show_date: true
+
+##### Theme config
 locale: "en-US"
+logo: "/assets/images/logo.jpeg"
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "neon"
+teaser: /assets/images/teaser.jpeg
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"

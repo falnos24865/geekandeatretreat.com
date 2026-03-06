@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Board Games"
+    url: /boardgames
+  - title: "RPG Games"
+    url: /rpggames
+  - title: "Video Games"
+    url: /videogames
+  - title: "About"
+    url: /about
+  - title: "Contact"
+    url: /contact
