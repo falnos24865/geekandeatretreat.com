@@ -18,16 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Geek And Eat Retreat
+email: contact@geekandeatretreat.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to Geek & Eat Retreat! A gaming retreat where enthusiasts of board games,
+  roleplaying adventures, and video games converge for an unforgettable experience.
+  Immerse yourself in epic tabletop battles with classics like Wingspan and innovative
+  titles like Gloomhaven, dive into collaborative storytelling through Dungeons & Dragons
+  and Shadowrun sessions, and enjoy in-your-face action with local video game with both console
+  and arcade classics. Our retreat offers themed rooms and includes meals inspired by geek culture.
+  Whether you're a seasoned gamer or a curious newcomer, join us for camaraderie, strategy, and
+  endless fun in a judgment-free zone dedicated to all things geeky. Book your spot today and
+  level up your gaming life!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 
 # Build settings
 theme: minima
