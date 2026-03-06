@@ -25,6 +25,7 @@ theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
+  - jekyll-minifier
 
 ##### Defaults
 defaults:
@@ -51,12 +52,6 @@ teaser: /assets/images/teaser.jpeg
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/Q8d6d9g4va"
