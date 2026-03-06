@@ -2,16 +2,34 @@
 layout: single
 title: About
 permalink: /about/
+
+feature_row:
+  - image_path: https://placecats.com/300/200
+    alt: "doby"
+    title: "Doby"
+    excerpt: "A shy but adorable puppy."
+
+  - image_path: https://placecats.com/300/200
+    alt: "gohan"
+    title: "Gohan"
+    excerpt: "Extra friendly orange boy who loves getting lost and crying for help."
+
+  - image_path: https://placecats.com/300/200
+    alt: "matila"
+    title: "Matilda"
+    excerpt: "A timid princess who loves laps."
+
+  - image_path: https://placecats.com/300/200
+    alt: "menace"
+    title: "Menace"
+    excerpt: "A hyper ball of fur who is always up for playing."
+
+  - image_path: https://placecats.com/300/200
+    alt: "teddy"
+    title: "Teddy"
+    excerpt: "The resident old man who is in love with food!"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<h3>Meet The Pets Of The Retreat</h3>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+{% include feature_row %}

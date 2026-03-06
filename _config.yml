@@ -6,7 +6,7 @@ name: Joe Robertson
 email: contact@geekandeat.com
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Geek & Eat Retreat! A gaming retreat where enthusiasts of board games,
+  Welcome to Geek & Eat Retreat! A pet friendly gaming retreat where enthusiasts of board games,
   roleplaying adventures, and video games converge for an unforgettable experience.
   Immerse yourself in epic tabletop battles with classics like Wingspan and innovative
   titles like Gloomhaven, dive into collaborative storytelling through Dungeons & Dragons
@@ -45,9 +45,9 @@ defaults:
 
 ##### Theme config
 locale: "en-US"
-logo: "/assets/images/logo.jpeg"
+logo: "/assets/images/logo.png"
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "sunrise"
 teaser: /assets/images/teaser.jpeg
 
 footer:

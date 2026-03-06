@@ -16,14 +16,14 @@ feature_row:
   - image_path: /assets/images/home/board_games.webp
     alt: "board games"
     title: "Board Games"
-    excerpt: "Explore my ever-growing board game collection — from quick card games to epic strategy titles. Check out what's on the shelf and what's been hitting the table lately."
+    excerpt: "Explore our ever-growing board game collection, from quick card games to epic strategy titles. Check out what's on the shelf and what's been hitting the table lately."
     url: "/boardgames/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/home/video_games.webp
     alt: "fully responsive"
     title: "Video Games"
-    excerpt: "From indie gems to AAA adventures, dive into my video game library. See what I've been playing, reviewing, and obsessing over."
+    excerpt: "From indie gems to AAA adventures, dive into our video game library. See what we've been playing, reviewing, and obsessing over."
     url: "/videogames/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
