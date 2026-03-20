@@ -5,12 +5,11 @@ permalink: /
 
 hidden: true
 
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/home/banner.webp
+#header:
+#overlay_color: "#5e616c"
+#overlay_image: /assets/images/home/banner.webp
 
-excerpt: >
-  (Placeholder AI generated image)
+excerpt:
 
 feature_row:
   - image_path: /assets/images/home/board_games.webp
@@ -40,22 +39,22 @@ feature_row:
   - image_path: /assets/images/home/mini_games.webp
     alt: "miniature games"
     title: "Miniature Games"
-    excerpt: ""
+    excerpt: "(Coming Soon)"
 
   - image_path: /assets/images/home/movie_theater.webp
     alt: "movie theater"
     title: "Movie Theater"
-    excerpt: ""
+    excerpt: "(Coming Soon)"
 
   - image_path: /assets/images/home/hot_tub.webp
     alt: "hot tub"
     title: "Indoor Hot Tub / Sauna"
-    excerpt: ""
+    excerpt: "(Coming Soon)"
 
   - image_path: /assets/images/home/escape_rooms.webp
     alt: "escape rooms"
     title: "Escape Rooms"
-    excerpt: ""
+    excerpt: "(Coming Soon)"
 ---
 
 {{ site.description }}

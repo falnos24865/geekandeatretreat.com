@@ -43,6 +43,11 @@ feature_row:
     alt: "playstation 2"
     title: "Playstation 2"
     excerpt: ""
+
+  - image_path: /assets/images/videogames/xbox360.webp
+    alt: "xbox 360"
+    title: "Xbox 360"
+    excerpt: ""
 ---
 
 <h3>Consoles Available:</h3>
