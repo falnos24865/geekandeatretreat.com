@@ -40,8 +40,12 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
+      author_profile: true
       read_time: true
-      show_date: true
+      comments: true
+      share: true
+      related: true
 
 ##### Theme config
 locale: "en-US"
@@ -55,3 +59,6 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/Q8d6d9g4va"
+
+collections:
+  - pets

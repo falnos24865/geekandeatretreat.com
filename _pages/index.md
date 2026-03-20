@@ -59,4 +59,15 @@ feature_row:
 
 {{ site.description }}
 
+<h2>Recent News</h2>
+{% for post in site.posts limit:1 %}
+
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  <div class="post-content">
+    {{ post.excerpt }}
+  </div>
+  <a href="{{ post.url }}">Read more...</a>
+{% endfor %}
+
 {% include feature_row %}
