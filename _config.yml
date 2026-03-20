@@ -22,7 +22,7 @@ github_username:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-J6HPCJCQ1R"
+    tracking_id: "G-WPCE9N2XE5"
     anonymize_ip: false
 
 # Build settings
