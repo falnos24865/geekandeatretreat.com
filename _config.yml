@@ -19,7 +19,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.geekandeat.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
-google_analytics: "G-WPCE9N2XE5"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-WPCE9N2XE5"
+    anonymize_ip: false
 
 # Build settings
 theme: minimal-mistakes-jekyll
